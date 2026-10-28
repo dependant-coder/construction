@@ -1,0 +1,12 @@
+flask==3.1.*
+flask-cors==5.*
+opencv-python-headless==4.10.*
+# --- CUDA-enabled PyTorch (install FIRST, before ultralytics) ---
+# Install via: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+torch
+torchvision
+torchaudio
+# --- Then install ultralytics ---
+ultralytics>=8.0.0
+numpy>=1.26
+Pillow>=10.0
